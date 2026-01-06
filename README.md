@@ -12,6 +12,7 @@ A collection of picoCTF challenge writeups focused on clear methodology, technic
 This repository contains structured writeups for picoCTF challenges.
 
 Each writeup documents:
+
 - The problem-solving approach
 - Technical analysis and reasoning
 - Commands and tools used
@@ -25,12 +26,12 @@ The repository is designed to be **automation-friendly**, ensuring statistics an
 
 Challenges are organized by category, following picoCTF’s classification:
 
-- 🛠️ General Skills  
-- 🔍 Forensics  
-- 🔄 Reverse Engineering  
-- 🌐 Web Exploitation  
-- 🔐 Cryptography  
-- 💻 Binary Exploitation  
+- 🛠️ General Skills
+- 🔍 Forensics
+- 🔄 Reverse Engineering
+- 🌐 Web Exploitation
+- 🔐 Cryptography
+- 💻 Binary Exploitation
 
 Each category corresponds to a dedicated folder in the repository.
 
@@ -49,29 +50,13 @@ All writeups follow a consistent header format:
 **Author:** <author>
 
 ---
-````
+```
 
-Followed by:
-
-* Challenge Description
-* Objective
-* Initial Analysis
-* Solution Steps
-* Flag
-* Key Takeaways
-* Tools Used
-
-This consistency allows metadata to be parsed automatically.
+This strict format allows metadata to be parsed automatically.
 
 ---
 
-## 🏆 Challenges Solved
-
-<!-- CHALLENGES_TABLE_START -->
-
-<!-- CHALLENGES_TABLE_END -->
-
-> This table is generated automatically.
+> ⚠️ This table is generated automatically.
 > Do not edit manually.
 
 ---
@@ -79,7 +64,10 @@ This consistency allows metadata to be parsed automatically.
 ## 📊 Progress Tracker
 
 <!-- STATS_START -->
-Total Challenges Completed: 5
+Total Challenges Completed: 5  
+Total Challenges Completed (Easy): 4  
+Total Challenges Completed (Medium): 1  
+Total Challenges Completed (Hard): 0  
 
 - General Skills: 1
 - Forensics: 1
@@ -100,23 +88,21 @@ Common tools used across challenges include:
 
 ### Command-Line
 
-* `nc`, `ssh`
-* `ls`, `cd`, `cat`
-* `strings`, `grep`, `file`
-* `base64`, `xxd`
+- `nc`, `ssh`
+- `ls`, `cd`, `cat`
+- `strings`, `grep`, `file`
+- `base64`, `xxd`
 
 ### Analysis Tools
 
-* CyberChef
-* dCode
-* binwalk
-* exiftool
-* steghide
+- CipherIdentifier
+- exiftool
+- steghide
 
 ### Languages
 
-* Python
-* Bash
+- Python
+- Bash
 
 ---
 
@@ -145,9 +131,9 @@ picoctf-writeups/
 
 This repository is intended for **educational purposes only**.
 
-* Use the writeups to learn and understand concepts
-* Attempt challenges independently before reading solutions
-* Apply techniques only in authorized environments
+- Use the writeups to learn and understand concepts
+- Attempt challenges independently before reading solutions
+- Apply techniques only in authorized environments
 
 Respect the spirit of Capture The Flag competitions.
 
@@ -163,21 +149,4 @@ Respect the spirit of Capture The Flag competitions.
 
 <div align="center">
 
-*Progress over perfection. Accuracy over aesthetics.*
-
-</div>
-```
-
----
-
-## 🧠 ATURAN MAIN KE DEPANNYA (INI PENTING)
-
-Kalau kamu melanggar ini, automation kamu rusak:
-
-1. ❌ Jangan tulis angka manual di README
-2. ❌ Jangan edit area di antara marker
-3. ❌ Jangan ubah format header writeup
-4. ✅ Tambah challenge = tambah file `.md`
-5. ✅ Biarkan GitHub Actions bekerja
-
----
+_Progress over perfection. Accuracy over aesthetics._

@@ -79,6 +79,14 @@ This consistency allows metadata to be parsed automatically.
 ## 📊 Progress Tracker
 
 <!-- STATS_START -->
+Total Challenges Completed: 5
+
+- General Skills: 1
+- Forensics: 1
+- Reverse Engineering: 1
+- Web Exploitation: 1
+- Cryptography: 1
+- Binary Exploitation: 0
 
 <!-- STATS_END -->
 

@@ -1,263 +1,175 @@
 # 🚩 picoCTF Writeups
 
-A collection of detailed writeups for picoCTF challenges, documenting solutions, methodologies, and learning outcomes for various cybersecurity challenges.
+A collection of picoCTF challenge writeups focused on clear methodology, technical accuracy, and consistent documentation.
 
 [![picoCTF](https://img.shields.io/badge/picoCTF-Challenges-blue)](https://picoctf.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
-## 📋 Table of Contents
-
-- [About](#about)
-- [Challenge Categories](#challenge-categories)
-- [Writeup Structure](#writeup-structure)
-- [Challenges Solved](#challenges-solved)
-- [Tools Used](#tools-used)
-- [How to Use This Repository](#how-to-use-this-repository)
-- [Disclaimer](#disclaimer)
-- [Contact](#contact)
-
----
-
 ## 🎯 About
 
-This repository contains comprehensive writeups for [picoCTF](https://picoctf.org/) challenges. Each writeup includes:
+This repository contains structured writeups for picoCTF challenges.
 
-- **Detailed solution steps** with explanations
-- **Command-line examples** and code snippets
-- **Tool recommendations** and alternatives
-- **Learning outcomes** and key takeaways
-- **Screenshots and proof of completion**
+Each writeup documents:
+- The problem-solving approach
+- Technical analysis and reasoning
+- Commands and tools used
+- Key lessons learned
 
-The goal is to help others learn cybersecurity concepts while documenting my problem-solving approach and methodology.
+The repository is designed to be **automation-friendly**, ensuring statistics and progress remain accurate without manual updates.
 
 ---
 
 ## 📚 Challenge Categories
 
-picoCTF challenges are organized into various categories:
+Challenges are organized by category, following picoCTF’s classification:
 
-| Category                   | Description                                                  | Challenges Solved |
-| -------------------------- | ------------------------------------------------------------ | ----------------- |
-| 🔍 **Forensics**           | Digital forensics, steganography, metadata analysis          | 1                 |
-| 🔄 **Reverse Engineering** | Binary analysis, code decompilation, algorithm understanding | 1                 |
-| 🌐 **Web Exploitation**    | Web vulnerabilities, injection attacks, session management   | 0                 |
-| 🔐 **Cryptography**        | Encryption, encoding, cipher breaking                        | 0                 |
-| 💻 **Binary Exploitation** | Buffer overflows, shellcode, memory corruption               | 0                 |
-| 🛠️ **General Skills**      | Linux commands, scripting, basic tools                       | 1                 |
+- 🛠️ General Skills  
+- 🔍 Forensics  
+- 🔄 Reverse Engineering  
+- 🌐 Web Exploitation  
+- 🔐 Cryptography  
+- 💻 Binary Exploitation  
+
+Each category corresponds to a dedicated folder in the repository.
 
 ---
 
 ## 📝 Writeup Structure
 
-Each writeup follows a consistent format for easy navigation:
+All writeups follow a consistent header format:
 
-```markdown
-# Challenge Name
+```md
+# picoCTF Writeup: <challenge-name>
 
-**Category:** [Category]
-**Difficulty:** [Easy/Medium/Hard]
-**Points:** [Points]
+**Challenge Name:** <name>  
+**Category:** <category>  
+**Difficulty:** Easy | Medium | Hard  
+**Author:** <author>
 
-## 📌 Challenge Description
+---
+````
 
-## 🎯 Objective
+Followed by:
 
-## 🔍 Initial Analysis
+* Challenge Description
+* Objective
+* Initial Analysis
+* Solution Steps
+* Flag
+* Key Takeaways
+* Tools Used
 
-## 🛠️ Solution Steps
-
-## 🚩 Flag
-
-## 💡 Key Takeaways
-
-## 🔧 Tools Used
-```
+This consistency allows metadata to be parsed automatically.
 
 ---
 
 ## 🏆 Challenges Solved
 
-### General Skills
+<!-- CHALLENGES_TABLE_START -->
 
-| Challenge               | Difficulty | Category | Writeup                                                   |
-| ----------------------- | ---------- | -------- | --------------------------------------------------------- |
-| Magikarp Ground Mission | Easy       | 30       | [📄 Writeup](./general-skills/magikarp-ground-mission.md) |
+<!-- CHALLENGES_TABLE_END -->
 
-### Forensics
-
-| Challenge   | Difficulty | Points | Writeup                                  |
-| ----------- | ---------- | ------ | ---------------------------------------- |
-| Information | Easy       | 10     | [📄 Writeup](./forensics/information.md) |
-
-### Reverse Engineering
-
-| Challenge  | Difficulty | Points | Writeup                                           |
-| ---------- | ---------- | ------ | ------------------------------------------------- |
-| crackme-py | Medium     | 30     | [📄 Writeup](./reverse-engineering/crackme-py.md) |
-
-### Web Exploitation
-
-| Challenge      | Difficulty | Points | Writeup |
-| -------------- | ---------- | ------ | ------- |
-| Coming soon... | -          | -      | -       |
-
-### Cryptography
-
-| Challenge      | Difficulty | Points | Writeup |
-| -------------- | ---------- | ------ | ------- |
-| Coming soon... | -          | -      | -       |
-
-### Binary Exploitation
-
-| Challenge      | Difficulty | Points | Writeup |
-| -------------- | ---------- | ------ | ------- |
-| Coming soon... | -          | -      | -       |
-
----
-
-## 🔧 Tools Used
-
-This section lists common tools used across multiple challenges:
-
-### Command-Line Tools
-
-- `ssh` - Secure Shell for remote connections
-- `ls`, `cd`, `cat` - Basic Linux navigation
-- `wget`, `curl` - Download files from URLs
-- `strings` - Extract readable strings from files
-- `grep` - Search for patterns in text
-- `base64` - Encode/decode Base64
-- `exiftool` - Read and write metadata
-- `steghide` - Steganography tool
-- `binwalk` - Firmware analysis tool
-- `file` - Determine file type
-
-### Online Tools
-
-- [CyberChef](https://gchq.github.io/CyberChef/) - Data transformation
-- [dCode](https://www.dcode.fr/) - Cipher identification and decoding
-- [Metadata2Go](https://www.metadata2go.com/) - Online metadata viewer
-- [Base64 Decode](https://www.base64decode.org/) - Base64 decoder
-
-### Programming Languages
-
-- Python 3 - Scripting and automation
-- Bash - Shell scripting
-
----
-
-## 📖 How to Use This Repository
-
-### For Learning
-
-1. **Try the challenge yourself first** before reading the writeup
-2. If stuck, read only the "Initial Analysis" section for hints
-3. Use the writeup as a reference to understand different approaches
-4. Check the "Key Takeaways" section to consolidate learning
-
-### For Reference
-
-1. Navigate to the appropriate category folder
-2. Find the challenge writeup by name
-3. Follow the step-by-step solution
-4. Adapt the methodology to similar challenges
-
-### Repository Structure
-
-```
-picoctf-writeups/
-├── README.md
-├── general-skills/
-│   ├── magikarp-ground-mission.md
-│   └── ...
-├── forensics/
-│   ├── information.md
-│   └── ...
-├── reverse-engineering/
-│   ├── crackme-py.md
-│   └── ...
-├── web-exploitation/
-│   └── ...
-├── cryptography/
-│   └── ...
-├── binary-exploitation/
-│   └── ...
-└── assets/
-    └── images/
-```
-
----
-
-## ⚠️ Disclaimer
-
-**Educational Purpose Only**
-
-These writeups are created for **educational purposes** to help others learn cybersecurity concepts and problem-solving techniques.
-
-- ✅ Use these writeups to **learn and understand** CTF methodologies
-- ✅ Try challenges on your own **before** reading solutions
-- ✅ Use the techniques in **authorized environments** only
-- ❌ Do **not** use these methods for unauthorized access or malicious purposes
-- ❌ Do **not** submit these solutions as your own work in competitions
-
-**Respect the CTF Spirit:** Capture The Flag competitions are designed for learning. Try to solve challenges independently before consulting writeups.
+> This table is generated automatically.
+> Do not edit manually.
 
 ---
 
 ## 📊 Progress Tracker
 
 <!-- STATS_START -->
+
 <!-- STATS_END -->
+
+> Statistics are updated automatically via GitHub Actions.
 
 ---
 
-## 🎓 Learning Resources
+## 🔧 Tools & Technologies
 
-### Recommended Resources for CTF Beginners
+Common tools used across challenges include:
 
-- [picoCTF Practice](https://play.picoctf.org/practice) - Official practice platform
-- [CTF101](https://ctf101.org/) - Introduction to CTFs
-- [OverTheWire](https://overthewire.org/wargames/) - Security wargames
-- [HackTheBox](https://www.hackthebox.com/) - Penetration testing labs
-- [TryHackMe](https://tryhackme.com/) - Guided cybersecurity learning
+### Command-Line
 
-### Useful Documentation
+* `nc`, `ssh`
+* `ls`, `cd`, `cat`
+* `strings`, `grep`, `file`
+* `base64`, `xxd`
 
-- [Bash Scripting Guide](https://www.gnu.org/software/bash/manual/)
-- [Python Documentation](https://docs.python.org/3/)
-- [Linux Command Reference](https://man7.org/linux/man-pages/)
-- [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+### Analysis Tools
+
+* CyberChef
+* dCode
+* binwalk
+* exiftool
+* steghide
+
+### Languages
+
+* Python
+* Bash
+
+---
+
+## 📁 Repository Structure
+
+```
+picoctf-writeups/
+├── README.md
+├── scripts/
+│   └── stats.py
+├── .github/
+│   └── workflows/
+│       └── update-readme.yml
+├── general-skills/
+├── forensics/
+├── reverse-engineering/
+├── web-exploitation/
+├── cryptography/
+├── binary-exploitation/
+└── assets/
+```
+
+---
+
+## ⚠️ Disclaimer
+
+This repository is intended for **educational purposes only**.
+
+* Use the writeups to learn and understand concepts
+* Attempt challenges independently before reading solutions
+* Apply techniques only in authorized environments
+
+Respect the spirit of Capture The Flag competitions.
 
 ---
 
 ## 📞 Contact
 
-**Author:** [Muhamad Lutfi]  
-**GitHub:** [@Lutfi-Muhamad](https://https://github.com/Lutfi-Muhamad)  
-**Email:** muhamad.ltfi10@gmail.com
-
----
-
----
-
-## 📈 Statistics
-
-<!--![GitHub stars](https://img.shields.io/github/stars/Lutfi-Muhamad/picoctf-writeups?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Lutfi-Muhamad/picoctf-writeups?style=social) -->
-
-![GitHub issues](https://img.shields.io/github/issues/Lutfi-Muhamad/picoctf-writeups)
-![Last commit](https://img.shields.io/github/last-commit/Lutfi-Muhamad/picoctf-writeups)
+**Author:** Muhamad Lutfi
+**GitHub:** [https://github.com/Lutfi-Muhamad](https://github.com/Lutfi-Muhamad)
+**Email:** [muhamad.ltfi10@gmail.com](mailto:muhamad.ltfi10@gmail.com)
 
 ---
 
 <div align="center">
 
-**Happy Hacking! 🔐**
-
-_Remember: The journey of learning is more important than the destination._
-
-[⬆ Back to Top](#-picoctf-writeups)
+*Progress over perfection. Accuracy over aesthetics.*
 
 </div>
+```
+
+---
+
+## 🧠 ATURAN MAIN KE DEPANNYA (INI PENTING)
+
+Kalau kamu melanggar ini, automation kamu rusak:
+
+1. ❌ Jangan tulis angka manual di README
+2. ❌ Jangan edit area di antara marker
+3. ❌ Jangan ubah format header writeup
+4. ✅ Tambah challenge = tambah file `.md`
+5. ✅ Biarkan GitHub Actions bekerja
+
+---

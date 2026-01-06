@@ -1,0 +1,22 @@
+name: Update README Stats
+
+on:
+  push:
+    paths:
+      - "**/*.md"
+      - "scripts/stats.py"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - run: python scripts/stats.py
+      - run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git commit -am "auto: update stats" || echo "No changes"
+          git push

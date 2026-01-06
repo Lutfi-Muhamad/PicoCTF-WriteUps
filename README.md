@@ -15,7 +15,6 @@ A collection of detailed writeups for picoCTF challenges, documenting solutions,
 - [Challenges Solved](#challenges-solved)
 - [Tools Used](#tools-used)
 - [How to Use This Repository](#how-to-use-this-repository)
-- [Contributing](#contributing)
 - [Disclaimer](#disclaimer)
 - [Contact](#contact)
 
@@ -39,14 +38,14 @@ The goal is to help others learn cybersecurity concepts while documenting my pro
 
 picoCTF challenges are organized into various categories:
 
-| Category | Description | Challenges Solved |
-|----------|-------------|-------------------|
-| 🔍 **Forensics** | Digital forensics, steganography, metadata analysis | 1 |
-| 🔄 **Reverse Engineering** | Binary analysis, code decompilation, algorithm understanding | 1 |
-| 🌐 **Web Exploitation** | Web vulnerabilities, injection attacks, session management | 0 |
-| 🔐 **Cryptography** | Encryption, encoding, cipher breaking | 0 |
-| 💻 **Binary Exploitation** | Buffer overflows, shellcode, memory corruption | 0 |
-| 🛠️ **General Skills** | Linux commands, scripting, basic tools | 1 |
+| Category                   | Description                                                  | Challenges Solved |
+| -------------------------- | ------------------------------------------------------------ | ----------------- |
+| 🔍 **Forensics**           | Digital forensics, steganography, metadata analysis          | 1                 |
+| 🔄 **Reverse Engineering** | Binary analysis, code decompilation, algorithm understanding | 1                 |
+| 🌐 **Web Exploitation**    | Web vulnerabilities, injection attacks, session management   | 0                 |
+| 🔐 **Cryptography**        | Encryption, encoding, cipher breaking                        | 0                 |
+| 💻 **Binary Exploitation** | Buffer overflows, shellcode, memory corruption               | 0                 |
+| 🛠️ **General Skills**      | Linux commands, scripting, basic tools                       | 1                 |
 
 ---
 
@@ -62,11 +61,17 @@ Each writeup follows a consistent format for easy navigation:
 **Points:** [Points]
 
 ## 📌 Challenge Description
+
 ## 🎯 Objective
+
 ## 🔍 Initial Analysis
+
 ## 🛠️ Solution Steps
+
 ## 🚩 Flag
+
 ## 💡 Key Takeaways
+
 ## 🔧 Tools Used
 ```
 
@@ -76,39 +81,39 @@ Each writeup follows a consistent format for easy navigation:
 
 ### General Skills
 
-| Challenge | Difficulty | Points | Writeup |
-|-----------|------------|--------|---------|
-| Magikarp Ground Mission | Easy | 30 | [📄 Writeup](./general-skills/magikarp-ground-mission.md) |
+| Challenge               | Difficulty | Category | Writeup                                                   |
+| ----------------------- | ---------- | -------- | --------------------------------------------------------- |
+| Magikarp Ground Mission | Easy       | 30       | [📄 Writeup](./general-skills/magikarp-ground-mission.md) |
 
 ### Forensics
 
-| Challenge | Difficulty | Points | Writeup |
-|-----------|------------|--------|---------|
-| Information | Easy | 10 | [📄 Writeup](./forensics/information.md) |
+| Challenge   | Difficulty | Points | Writeup                                  |
+| ----------- | ---------- | ------ | ---------------------------------------- |
+| Information | Easy       | 10     | [📄 Writeup](./forensics/information.md) |
 
 ### Reverse Engineering
 
-| Challenge | Difficulty | Points | Writeup |
-|-----------|------------|--------|---------|
-| crackme-py | Medium | 30 | [📄 Writeup](./reverse-engineering/crackme-py.md) |
+| Challenge  | Difficulty | Points | Writeup                                           |
+| ---------- | ---------- | ------ | ------------------------------------------------- |
+| crackme-py | Medium     | 30     | [📄 Writeup](./reverse-engineering/crackme-py.md) |
 
 ### Web Exploitation
 
-| Challenge | Difficulty | Points | Writeup |
-|-----------|------------|--------|---------|
-| Coming soon... | - | - | - |
+| Challenge      | Difficulty | Points | Writeup |
+| -------------- | ---------- | ------ | ------- |
+| Coming soon... | -          | -      | -       |
 
 ### Cryptography
 
-| Challenge | Difficulty | Points | Writeup |
-|-----------|------------|--------|---------|
-| Coming soon... | - | - | - |
+| Challenge      | Difficulty | Points | Writeup |
+| -------------- | ---------- | ------ | ------- |
+| Coming soon... | -          | -      | -       |
 
 ### Binary Exploitation
 
-| Challenge | Difficulty | Points | Writeup |
-|-----------|------------|--------|---------|
-| Coming soon... | - | - | - |
+| Challenge      | Difficulty | Points | Writeup |
+| -------------- | ---------- | ------ | ------- |
+| Coming soon... | -          | -      | -       |
 
 ---
 
@@ -117,6 +122,7 @@ Each writeup follows a consistent format for easy navigation:
 This section lists common tools used across multiple challenges:
 
 ### Command-Line Tools
+
 - `ssh` - Secure Shell for remote connections
 - `ls`, `cd`, `cat` - Basic Linux navigation
 - `wget`, `curl` - Download files from URLs
@@ -129,12 +135,14 @@ This section lists common tools used across multiple challenges:
 - `file` - Determine file type
 
 ### Online Tools
+
 - [CyberChef](https://gchq.github.io/CyberChef/) - Data transformation
 - [dCode](https://www.dcode.fr/) - Cipher identification and decoding
 - [Metadata2Go](https://www.metadata2go.com/) - Online metadata viewer
 - [Base64 Decode](https://www.base64decode.org/) - Base64 decoder
 
 ### Programming Languages
+
 - Python 3 - Scripting and automation
 - Bash - Shell scripting
 
@@ -186,7 +194,7 @@ picoctf-writeups/
 
 **Educational Purpose Only**
 
-These writeups are created for **educational purposes** to help others learn cybersecurity concepts and problem-solving techniques. 
+These writeups are created for **educational purposes** to help others learn cybersecurity concepts and problem-solving techniques.
 
 - ✅ Use these writeups to **learn and understand** CTF methodologies
 - ✅ Try challenges on your own **before** reading solutions
@@ -200,15 +208,8 @@ These writeups are created for **educational purposes** to help others learn cyb
 
 ## 📊 Progress Tracker
 
-```
-Total Challenges Completed: 3
-├── General Skills:        1/XX ░░░░░░░░░░ 
-├── Forensics:            1/XX ░░░░░░░░░░
-├── Reverse Engineering:  1/XX ░░░░░░░░░░
-├── Web Exploitation:     0/XX ░░░░░░░░░░
-├── Cryptography:         0/XX ░░░░░░░░░░
-└── Binary Exploitation:  0/XX ░░░░░░░░░░
-```
+<!-- STATS_START -->
+<!-- STATS_END -->
 
 ---
 
@@ -245,8 +246,9 @@ Total Challenges Completed: 3
 
 <!--![GitHub stars](https://img.shields.io/github/stars/Lutfi-Muhamad/picoctf-writeups?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/Lutfi-Muhamad/picoctf-writeups?style=social) -->
- ![GitHub issues](https://img.shields.io/github/issues/Lutfi-Muhamad/picoctf-writeups)
-![Last commit](https://img.shields.io/github/last-commit/Lutfi-Muhamad/picoctf-writeups) 
+
+![GitHub issues](https://img.shields.io/github/issues/Lutfi-Muhamad/picoctf-writeups)
+![Last commit](https://img.shields.io/github/last-commit/Lutfi-Muhamad/picoctf-writeups)
 
 ---
 
@@ -254,7 +256,7 @@ Total Challenges Completed: 3
 
 **Happy Hacking! 🔐**
 
-*Remember: The journey of learning is more important than the destination.*
+_Remember: The journey of learning is more important than the destination._
 
 [⬆ Back to Top](#-picoctf-writeups)
 

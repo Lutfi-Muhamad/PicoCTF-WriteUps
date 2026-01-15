@@ -2,8 +2,7 @@
 
 **Challenge Name:** Magikarp Ground Mission  
 **Category:** General Skills  
-**Difficulty:** Easy  
-**Points:** 30  
+**Difficulty:** Easy   
 **Author:** syreal
 
 ---
